@@ -1,0 +1,315 @@
+body{
+    margin:0;
+    padding:0;
+    /* background-color: black; */
+    background: url("./303c35fa6771e3a93927d3b378a690e8.png");
+    background-size: cover;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    /* background: url("./How-To-Add-WooCommerce-Custom-Registration-Form-Fields.jpg");
+    background-size: cover; */
+}
+.register_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: white; */
+    height: 475px;/*475px */
+    width: 800px;/*800px*/
+    margin-top:5% ;
+    align-content: flex-start;
+    /* background: black; */
+    /* transform: translate(50%,50%) ; */
+}
+.register_form_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register_form_left{
+    display: flex;
+    justify-content: center;
+    /* background: url("./poly-nogra-150-g21-32_28885_29.jpg"); */
+    background-image:linear-gradient(135deg,#313131,#000981);
+    opacity: 1;
+    height: 475px;
+    width: 400px;
+}
+.register_form_right{
+    background: hsl(0, 0%, 91%);
+    opacity: 1;
+    height: 475px;
+    width: 400px;
+    
+}
+.left_flex{
+    /* background: chartreuse; */
+    width: 303px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.get_started{
+    user-select: none;
+    cursor: context-menu;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    margin-top: 70%;
+    font-family: system-ui;
+}
+.google_sign_in{
+    user-select: none;
+    cursor: pointer;
+    margin: 6px;
+    border: rgba(255, 255, 255, 0.3) 1px solid;
+    width: 280px;
+    height: 100px;
+    color: white;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:all 0.5s;
+    font-family: sans-serif;
+}
+.google_sign_in:hover{
+    color: black;
+    background: white;
+    transition:all 0.5s;
+}
+.facebook_sign_in{
+    user-select: none;
+    cursor: pointer;
+    margin: 6px;
+    border:rgba(255, 255, 255, 0.3) 1px solid;
+    width: 280px;
+    height: 100px;
+    color: white;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:all 0.5s;
+    font-family: sans-serif;
+}
+.facebook_sign_in:hover{
+    color: black;
+    background: white;
+    transition:all 0.5s;
+}
+.buttons{
+    display: flex;
+    width: 350px;
+    height: 62px;
+    /* background: black;  */
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.Log_In{
+    width: 55px;
+    height: 22px;
+    border: #999999 0.5px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.5s;
+    user-select: none;
+    font-family: sans-serif;
+    text-decoration-line: none;
+    color: white;
+    background: #033888;
+}
+.Register{
+    width: 55px;
+    height: 22px;
+    border: #999999 0.5px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.5s;
+    user-select: none;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    background: #033888;
+}
+.Log_In:hover, .Log_In:link{
+    color: black;
+    background: white;
+    text-decoration: none;
+}
+.login_link:link, .login_link:active{
+    text-decoration: none;
+    color: black;
+    background: white;
+}
+.Register:hover{
+    color: black;
+    background: white;
+}
+.register_link{
+    text-decoration: none;
+    color: black;
+    background: white;
+}
+.Register_inputs{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 320px;
+    width: 242px;
+    /* position: relative; */
+    user-select: none;
+    /* background-color: darkolivegreen; */
+    
+}
+.Register_title{
+    font-size: 30px;
+    font-weight: 550;
+    font-family: sans-serif;
+    margin-top: 18px;
+    margin-bottom: 12px;
+    /* position: absolute;
+    top: 0%;
+    left: 0%; */
+    /* margin: 3px; */
+}
+.first_name{
+    /* margin: 1px; */
+    font-size: 12px;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+.first_name_input{
+    height: 15px;
+    width: 100px;
+    border-top: black 0px solid;
+    border-left: black 0px solid;
+    border-right: black 0px solid;
+    background-color: rgba(255, 255, 255, 0);
+    outline:none;
+}
+.last_name{
+    font-size: 12px;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+.last_name_input{
+    height: 15px;
+    width: 100px;
+    border-top: black 0px solid;
+    border-left: black 0px solid;
+    border-right: black 0px solid;
+    background-color: rgba(255, 255, 255, 0);
+    outline:none;
+}
+.first_last_name{
+    display: flex;
+    justify-content:space-between;
+}
+.email_text{
+    font-size: 12px;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+.email_input{
+    height: 15px;
+    width: 236px;
+    border-top: black 0px solid;
+    border-left: black 0px solid;
+    border-right: black 0px solid;
+    background-color: rgba(255, 255, 255, 0);
+    outline:none;
+}
+.reg_password_text{
+    font-size: 12px;
+    font-weight: 200; 
+    font-family: sans-serif;
+}
+.reg_password_input{
+    height: 15px;
+    width: 100px;
+    border-top: black 0px solid;
+    border-left: black 0px solid;
+    border-right: black 0px solid;
+    background-color: rgba(255, 255, 255, 0);
+    outline:none;
+}
+.reg_password_password{
+    display: flex;
+    justify-content:space-between;
+}
+.confirm_password_text{
+    font-size: 12px;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+.sign_up{
+    height: 60px;
+    width: 238px;
+    background-color: #000980;
+    user-select: none;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-bottom: 7px;
+    color: white;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:all 0.5s;
+    border:rgba(0, 0, 0, 0.5) 2px solid;
+    font-family: sans-serif;
+}
+.sign_up:hover{
+    color: black;
+    background-color: white;
+    border:rgba(0, 0, 0, 0.5) 2px solid;
+    transition:all 0.5s;
+}
+.reg_all_elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.already_a_member{
+    font-family: sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 550;
+}
+.go_to_log_in{
+    font-size: 13px;
+    font-family: sans-serif;
+    color: #555555;
+    font-weight: 600;
+    cursor: pointer;
+}
+.go_to{
+    text-decoration: none;
+    color: #555555;
+}
+.reg_bottom_text{
+    display: flex;
+    justify-content: space-between;
+}
+.login_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:700px){
+    .register_form{
+      display: grid;
+    }
+}
